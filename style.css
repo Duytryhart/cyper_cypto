@@ -1,0 +1,26 @@
+/* .title{
+    font-size: 100px;
+} */
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 50px;
+        /* keo nho se la 50px  */
+        /*  keo to la 600px */
+    }
+}
+body{
+    background-color: #151937;
+    color: #fff;
+}
+.tex-gradient{
+    background:linear-gradient(to right,#ff61a3,#ff97a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#styled-contacts{
+    display: flex;
+    
+}
+#styled-profile{
+
+}
